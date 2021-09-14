@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Searcher!</title>
+    <script defer type="text/javscript" src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 id=head>Donut Searcher!</h1>
+    </header>
+    <form>
+        <label for="searchshops"></label>
+        <input type="text" name="shops" id="donutsearcher"/>
+        <button type="submit">Donut search!</button>
+    </form>
+    <div id=donut-shops></div>
+    <!--Need to create elements with forEach and place donut shops here-->
+    <div id=donut-info>
+        <!--once one of the random donut images is selected show Name/star rating/ comments and location-->
+        <img id="placeholdernut" src="7-76082_svg-royalty-free-stock-donuts-png-clipart-picture.png" alt=Donutgraphic>
+        <h3 class="shopname">Donut shop go here</h3>
+        <div id=star-rating>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <h4 class="location">location down here</h4>
+    </div>
+    <div class="container"></div>
+    <h2>Please leave a comment!</h2>
+    <form>
+        <textarea placeholer='I love donuts, do you?'></textarea>
+        <div class="btn">
+            <input type="submit" value='comment'>
+        </div>
+    </form>
+
+</body>
+
+</html>
