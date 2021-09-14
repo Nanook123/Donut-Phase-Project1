@@ -1,0 +1,20 @@
+{
+"donutshops": [
+{
+    "id": 1,
+    "image": "./Billydonutos.jpg",
+    "name": "Billy's Donuts",
+    "Location": "Texas"
+
+}
+
+],
+"comments":[
+    {
+        "id":1,
+        "body": "Commento",
+        "postId": 1
+    }
+]
+}
+
