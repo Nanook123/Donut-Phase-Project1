@@ -1,20 +1,23 @@
 body {
     background-color: bisque;
     text-align: center;
+
 }
 
 #head {
     text-align: center;
 }
 
-/* #donut-shops {
-    width: 1750px;
+#donut-shops {
+    width: 1500px;
     height: 100px;
     border: 10px solid rgb(226, 179, 210);
-    padding: 60px;
-    margin: 20px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     
-} */
+}
 
 #placeholdernut {
     display: block;
@@ -32,6 +35,8 @@ body {
 
 #star-rating {
     text-align: center;
+    
+    
 }
 
 .checked {
@@ -46,15 +51,16 @@ body {
 }
 
 .donutimages {
-    display: flex;
-    overflow-x: auto;
+    /* display: flex; */
+    /* overflow-x: auto; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+    margin-top: -50px;
     height: 200px;
     width: 200px;
-    /* position:relative; */
-    
-    
+    /* float: center;
+    clear: both;
+    display: table;
 }
 
