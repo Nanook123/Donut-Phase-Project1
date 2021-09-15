@@ -6,22 +6,22 @@ fetch(BASE_URL)
 .then(function(response){
     return response.json()
 })
-.then(function(donutData){
-    donutData.forEach((donuts) => renderDonuts((donuts)))
-})
+.then((donutData) => donutData.forEach((donutObj) => renderDonuts(donutObj)))
+
 
 
 function renderDonuts(donutObj){
-    let donutshops = document.getElementById("donut-shops")
+    let donutShops = document.getElementById("donut-shops")
     let donutImg = document.createElement('Img')
+    donutImg.className = "donutimages"
     donutImg.src = donutObj.image;
+console.log(donutObj)
 
-
-donutshops.appendChild(donutImg)
+donutShops.appendChild(donutImg)
 
 
 }
 
-renderDonuts()
 
 
+donutImg.addEventListener('click')
